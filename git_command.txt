@@ -1,1 +1,15 @@
 Path : https://github.com/mislam6101/PWAD-68
+
+or create a new repository on the command line
+echo "# PWAD-68" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mislam6101/PWAD-68.git
+git push -u origin main
+
+or push an existing repository from the command line
+git remote add origin https://github.com/mislam6101/PWAD-68.git
+git branch -M main
+git push -u origin main
